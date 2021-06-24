@@ -1,0 +1,21 @@
+name:                pi-est
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/petterjf/pi-est#readme
+license:             BSD3
+author:              Petter Frisvåg
+maintainer:          petter.frisvag@outlook.com
+copyright:           Petter Frisvåg
+category:            web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - random
+
+executables:
+  pi-est:
+    source-dirs:      src
+    main:             Main.hs
