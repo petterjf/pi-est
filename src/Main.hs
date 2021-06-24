@@ -14,7 +14,7 @@ binomial
     -> Int              -- ^ Number of successes
 binomial n f a = length . filter id . take n $ unfoldr (Just . f) a
 
--- Returns True if a point is inside the unit cirlce
+-- Returns True if a point is inside the unit circle
 pointInside
     :: Double -- ^ x
     -> Double -- ^ y
